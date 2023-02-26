@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    align-items: center;
+}
+
+.button {
+    color: #fff;
+    background-color: #3a3caf;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button:hover {
+    background-color: #313391;
+}
